@@ -4,8 +4,8 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  
-    attr_accessor :email
+
+    attr_accessor :email, csv
     
     def initialize(email)
         @email = email
@@ -15,4 +15,3 @@ class EmailAddressParser
         [] << @email
         @email.split(" ")
     end
-  end 

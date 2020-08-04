@@ -15,3 +15,5 @@ class EmailAddressParser
         [] << @email
         @email.split(" ")
     end
+  end 
+  

@@ -7,6 +7,10 @@ class EmailAddressParser
   
   attr_accessor :name, 
   
-  initialize 
+  def initialize = csv_emails 
+    @csv_emails
+  end 
+  
+  EmailAddressParser.new(email_addresses)
   
 end 
